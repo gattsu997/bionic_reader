@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: bionic-reader
-    env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn webapp:app"
